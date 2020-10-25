@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andreas Moreno</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script defer src="app.js"> </script>
+</head>
+<body>
+    <div class="header">
+
+<h1 id="intro-navn">Hej, jeg er <span class="navn-tag">Andreas Moreno Jønsson.</span><br>
+Jeg programmere frontend og backend i JavaScript.
+</h1>
+
+
+<button id="budon" class="btn">Se mine projekter <i class="fas fa-chevron-down"></i></button>
+  
+<div class="nav nav-mobile">
+<a class="nav-hamburger"><i class="fas fa-bars"></i></a>
+<ul class="nav-list">
+<li class="nav-link"><a id="projekte">Projekter</a></li>
+<li class="nav-link"><a id="kompetencer">Kompetencer</a></li>
+<li class="nav-link"><a id="kontakt" id="kontakt" >Kontakt</a></li>
+
+</ul>    
+</div>
+
+
+    </div>
+
+
+
+    <div class="kompetence-container">
+        <h1>KOMPETENCER</h1>
+        <hr class="hr-linje">
+        <div class="kort">
+    <div class="card-container">
+        <i class="fas fa-laptop-code"></i> 
+        <h3>FRONT-END</h3> 
+        <ul class="kompetence-liste">
+            <li>HTML5</li>
+             <li>CSS</li>
+             <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+    </div>
+
+    <div class="card-container">
+        <i class="fas fa-server"></i>
+        <h3>SERVER</h3> 
+        <ul class="kompetence-liste">
+            <li>NodeJS</li>
+             <li>Webscraping</li>
+             <li>Express</li>
+        </ul>
+       </div>
+
+
+       <div class="card-container">
+        <i class="fas fa-database"></i>
+        <h3>DATABASE</h3> 
+        <ul class="kompetence-liste">
+            <li>MongoDB</li>
+             <li>PostgresSQL</li>
+        </ul>
+       </div>  
+</div>
+    </div>      
+    </div>
+
+    <div class="projekter">
+        <h1>PROJEKTER</h1> 
+        <hr class="hr-linje">
+        <div class="container">
+           <div class="card">
+<div class="card__indre">
+<div class="card__ansigt card__ansigt--front">
+<img src="Copy of JOBPORTAL FOR STUDERENDE (1).png"/>
+<ul class="kompetence-liste">
+    <li>React</li>
+    <hr>
+    <li>Node JS</li>
+     <hr>
+     <li>Redis</li>
+     <hr>
+    <li>Puppeteer</li>
+    <hr>
+    <li>Material-UI</li>
+</ul>
+</div>
+<div class="card__ansigt  card__ansigt--back">
+<div class="card__indhold">
+    <div class="card-header">
+    
+    </div>
+    <div class="card__krop"> 
+            <p>Hjemmeside som automatisk indsamler, data fra flere hunrede jobs indenfor IT.</p> 
+
+   <div class="knap-container"> 
+    <button id="demo" class="projekt-knap" type="button">SE DEMO</button>
+    
+    <button class="projekt-knap" onclick="location.href='https://itarbejde.dk/'" type="button">TJEK SIDE</button> 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+           </div>
+
+           <div class="card">
+            <div class="card__indree">
+            <div class="card__ansigt card__ansigt--front">
+            <img src="STUDERENDE.png"/>
+            <ul class="kompetence-liste">
+                <li>React</li>
+                <hr>
+                <li>Node JS</li>
+                 <hr>
+                 <li>Redis</li>
+                 <hr>
+                <li>Puppeteer</li>
+                <hr>
+                <li>Bootstrap</li>
+            </ul>
+            </div>
+            <div class="card__ansigt  card__ansigt--back">
+            <div class="card__indhold">
+                <div class="card-header">
+                
+                </div>
+                <div class="card__krop"> 
+                  <p>Hjemmeside som automatisk indsamler, data fra flere hundrede studiejobs.</p> 
+                <div class="knap-container">
+                  <button class="studerende projekt-knap"  type="button">SE DEMO</button>
+                <button class="projekt-knap" onclick="location.href='https://skrive.games/'" type="button">TJEK SIDE</button>   
+            </div>
+      </div>
+            </div>
+            </div>
+            </div>
+                       </div>
+
+
+
+                       <div class="card">
+                        <div class="card__indreee">
+                        <div class="card__ansigt card__ansigt--front">
+                        <img src="MULTIPLAYER.png"/>
+                        <ul class="kompetence-liste">
+                            <li>React</li>
+                            <hr>
+                            <li>Node JS</li>
+                             <hr>
+                             <li>MongoDB</li>
+                             <hr>
+                            <li>Socket.io</li>
+                        </ul>
+                        </div>
+                        <div class="card__ansigt  card__ansigt--back">
+                        <div class="card__indhold">
+                            <div class="card-header">
+                            
+                            </div>
+                            <div class="card__krop"> 
+                              <p>Multiplayerspil som måler skrive hastighed imod andre online spillere.</p> 
+                              <div class="knap-container">
+                              <button id="multiplayer" class="projekt-knap" type="button">SE DEMO</button>
+                            <button class="projekt-knap" type="button">TJEK SIDE</button>       
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                                   </div>
+
+
+
+        </div>       
+    </div>
+
+    <div class="kontakt"> 
+        <h1>KONTAKT</h1>
+        <hr class="hr-linje">
+        <h3>Har du et spørgsmål, eller vil du gerne arbejde sammen?</h3>
+
+        <div class="form-container">
+            <form action="https://formspree.io/f/mzbkealk"
+            method="POST">
+             <input name="name" type="text"  id="navn" placeholder="Navn"/>
+             <input name="_replyto" type="text" id="email" placeholder="E-mail"/>
+             <textarea  name="tekst" id="tekst" name="subject" placeholder="Din bedsked" style="height:150px"></textarea>
+             <div class="status"></div>
+             <button type="submit" value="Send" class="submit">SEND</button>
+            </form>
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="kontakt-medie">
+        <a href="https://www.linkedin.com/in/andreas-moreno-jønsson-8244ab96" target="none" class="social-medie"><i class="fab fa-linkedin"></i> </a> 
+    </div>
+<div class="kontakt-medie">
+    <a href="https://github.com/andreasjoensson" target="none" class="social-medie"><i class="fab fa-github-square"></i></a>
+</div>
+
+</div>
+
+<div class="modal-bg">
+  <div class="modal">
+     <img src="itarbejde.gif" width="100%"/>
+     <span class="modal-close"><i class="far fa-times-circle"></i></span> 
+  </div>  
+</div>
+
+<div class="modall-bg">
+    <div class="modall">
+       <img src="skrivegames.gif" width="100%"/>
+       <span class="modall-close"><i class="far fa-times-circle"></i></span> 
+    </div>  
+  </div>
+
+  <div class="modalll-bg">
+    <div class="modalll">
+       <img src="dsa.gif" width="100%"/>
+       <span class="modalll-close"><i class="far fa-times-circle"></i></span> 
+    </div>  
+  </div>
+
+
+
+</body>
+</html>

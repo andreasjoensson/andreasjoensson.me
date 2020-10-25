@@ -1,0 +1,688 @@
+:root{
+--primary: #FFCE00;
+--secondary: #FE4880;
+--dark: #212121;
+--light: #F3F3F3;
+}
+body{
+font-family: "Raleway";
+}
+.nav-link{
+cursor: pointer;
+}
+
+.card{
+margin: 100px auto 0;
+width: 350px;
+height: 450px;
+}
+.card__indre{
+width: 100%;
+height: 100%;
+transition: transform 1s;
+transform-style: preserve-3d;
+cursor: pointer;
+position: relative;
+}
+.card__indree{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+    }
+
+    .card__indreee{
+        width: 100%;
+        height: 100%;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+        cursor: pointer;
+        position: relative;
+        }
+    
+.card__indre.is-flipped{
+transform: rotateY(180deg);
+}
+
+.card__indreee.is-flipped{
+    transform: rotateY(180deg);
+    }
+
+.card__ansigt{
+position: absolute;
+width: 100%;
+background-color: white;
+height: 100%;
+backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
+overflow: hidden;
+border-radius: 16px;
+box-shadow: 0px 3px 18px 3px rgba(0,0,0,0.2);
+}
+.card__ansigt > .kompetence-liste{
+flex-direction: column;
+height: 100%;
+justify-content: center;
+display: flex;
+font-size: 2rem;
+}
+
+.card__ansigt--front{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.card__ansigt--front h2{
+color:white;
+font-size: 32px;
+}
+.card__ansigt--back{
+background-color: var(--light);
+transform: rotateY(180deg);
+}
+
+.card__indhold{
+width: 100%;
+height: 100%;
+}
+.card__krop{
+color: black;
+}
+.card__header{
+position: relative;
+padding: 30px 30px 40px;
+}
+.card__header:after{
+content: '';
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: -1;
+border-radius: 0 0 50% 0;
+background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--primary) 120%);
+}
+.card__indree.is-flipped{
+    transform: rotateY(180deg);
+}
+
+.card__ansigt{
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
+overflow: hidden;
+border-radius: 16px;
+box-shadow: 0px 3px 18px 3px rgba(0,0,0,0.2);
+}
+.card__ansigt > .kompetence-liste{
+flex-direction: column;
+height: 100%;
+justify-content: center;
+display: flex;
+font-size: 2rem;
+}
+
+.card__ansigt--front{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.card__ansigt--front h2{
+color:white;
+font-size: 32px;
+}
+.card__ansigt--back{
+background-color: var(--light);
+transform: rotateY(180deg);
+}
+
+.card__indhold{
+width: 100%;
+height: 100%;
+}
+.card__krop{
+color: black;
+}
+.card__header{
+position: relative;
+padding: 30px 30px 40px;
+}
+.card__header:after{
+content: '';
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: -1;
+border-radius: 0 0 50% 0;
+background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--primary) 120%);
+}
+
+*{
+margin:0;
+box-sizing: border-box;
+padding: 0;
+}
+
+.navn-tag{
+color:#E31B6D;
+}
+
+
+.header{
+background-color: #252934;
+height: 100vh;
+display: flex;
+align-items: center;
+position: relative;
+justify-content:center;
+flex-direction: column;
+max-width: 100vw;
+width: 100%;
+}
+#intro-navn{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;  
+    width: 65vw;
+}
+
+
+
+
+
+.content > ul > li {
+font-family: 'Roboto';
+font-size: 1.1rem;
+list-style-type: none;
+border-bottom:1px solid black;
+}
+
+.projekter > h1{
+padding-top: 5vh;
+color: white;
+font-family: 'Alata', sans-serif;
+text-align: center;
+}
+.navn{
+color: rgba(255, 0, 179, 0.789);
+}
+.card__krop{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+}
+.card__krop > p{
+font-weight: 600;
+font-family: "Raleway";
+width: 80%;
+font-size: 30px;
+margin: 0 auto;
+margin-bottom: 20vh;
+}
+
+.card__krop > button{
+padding: 15px;
+color: black;
+background-color: transparent;
+border: 2px solid black;
+font-family: 'Roboto', sans-serif;
+font-size: 1rem;
+width: 80%;
+margin: 0 auto;
+}
+
+.knap-container{
+display: flex;
+margin: 0 auto;
+}
+
+.knap-container > button{
+    padding: 15px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    width: 80%;
+    margin: 10px;
+    }
+
+.projekt-knap:hover{
+background: black;
+color: white;
+cursor: pointer;
+}
+
+.container{
+    width: 98vw;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.btn{
+padding:15px;
+color:white;
+background-color: transparent;
+border:2.5px solid white;
+font-family: 'Roboto', sans-serif;
+margin-top: 5vh;
+display: flex;
+align-items: center;
+font-size: 1rem;
+}
+
+.fejl{
+color:red;
+}
+.success{
+color: green;
+}
+.card-container{
+height: 50vh;
+width:250px;
+margin:15px;
+display: flex;
+margin-bottom: 10vh;
+flex-direction: column;
+justify-content: center;
+font-family: "Raleway";
+text-align: center;
+flex-wrap: wrap;
+border: 2px solid white;
+background:transparent;
+}
+.card-container > i{
+color: white;
+}
+
+.kompetence-container > h1{
+margin-top: 3vh;
+}
+
+.modal-bg{
+position: fixed;
+top:0;
+left:0;
+width: 100%;
+height: 100vh;
+background-color: rgba(0, 0, 0,0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s opacity 0.5s;
+}
+.bg-active{
+  visibility: visible;
+  opacity: 1;  
+}
+
+.modal{
+background-color: white;
+width: 60%;
+height: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+.modall-bg{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s opacity 0.5s;
+    }
+    .bg-active{
+      visibility: visible;
+      opacity: 1;  
+    }
+    
+    .modall{
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+    .modalll-bg{
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s opacity 0.5s;
+        }
+        .bg-active{
+          visibility: visible;
+          opacity: 1;  
+        }
+        .aktiv{
+        color:rgba(255, 0, 179, 0.789);
+        } 
+        .hr-linje{
+        width: 10%;
+        background-color: white;
+        margin-top: 4vh;
+        margin: 0 auto;
+        }
+        .modal-close{
+         position: absolute;
+         top: 10px;
+         right: 10px;   
+         cursor: pointer;
+         font-size:2rem;
+         color: white;
+        }
+        .modall-close{
+            position: absolute;
+            top: 10px;
+            right: 10px;   
+            cursor: pointer;
+            font-size:2rem;
+            color: white;
+           }
+           .modalll-close{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+            cursor: pointer;
+            font-size:2rem;   
+           }
+        
+        .modalll{
+        background-color: white;
+        width: 60%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+
+
+.card-container > i{
+margin-top: 2.5vh;
+    font-size: 3rem;
+    margin-bottom: 2.5vh;
+}
+
+.card-container > h3{
+margin-bottom: 1.5vh;
+}
+.kompetence-liste{
+margin-top: 1vh;
+list-style-type: none;
+}
+
+.kort{
+display: flex;
+height: 100%;
+align-items: center;
+flex-wrap: wrap;
+justify-content:center;
+}
+
+.btn > i {
+margin-left: 1vw;
+}
+.btn:hover{
+background-color:white;
+color: black;
+cursor: pointer;    
+}
+.kompetence-container > h1{
+text-align: center;
+font-family: "Raleway";
+color: white;
+}
+
+.kompetence-container{
+height: 100%;
+color: white;
+padding-top: 5vh;
+background-color: #252934;
+}
+.færdigheder{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card > img{
+max-width: 100px;
+width: 100%;
+}
+.carda > img{
+max-width: 60px;
+width: 100%;
+}
+
+.projekter{
+height: 100%;
+padding-bottom: 10vh;
+background-color:#1B242F;
+}
+.projekter > h1{
+color: white;
+text-align: center;
+}
+.nav{
+display: flex;
+width: 100%;
+background-color:#1B242F;
+padding: 20px;
+position: absolute;
+bottom: 0px;
+}
+.nav-list > li > a{
+text-decoration: none;
+color:white;
+}
+
+.nav-list > li > a:hover{
+color: black;
+}
+.nav-list{
+list-style: none;
+display: flex;
+width: 50%;
+font-weight: 300;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+justify-content: space-evenly;
+}
+
+form{
+width: 100%;
+
+}
+.kontakt{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#252934;
+flex-direction: column;
+}
+.info{
+font-size:1vw;
+margin:2rem;
+color: white;
+display: flex;
+flex-direction: column;
+}
+
+form{
+ display: flex;
+ flex-direction: column;   
+ margin:0 auto;
+}
+
+.kontakt > h1{
+color: white;
+}
+.kontakt > h3{
+color: white;
+margin-top: 5vh;
+margin-bottom: 5vh;
+text-align: center;
+padding: 10px;
+}
+
+h3{
+margin-top: 5vh;
+margin-bottom: 5vh;
+font-size: 1rem;
+}
+
+textarea{
+    background: #1E242C;
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+    font-family: 'Raleway';
+}
+
+form > input {
+background: #1E242C;
+font-size: 1.5rem;
+border: none;
+padding: 10px;
+margin: 2px;
+color: white;
+font-family: 'Raleway';
+}
+form > button{
+width:100px;
+height: 6vh;
+margin-top: 1vh;
+border: 2px solid white;
+background: transparent;
+color: white;
+font-family: 'Raleway';
+}
+form > button:hover{
+background: black;
+color: white;
+}
+
+
+.footer{
+height:30vh;
+background: #1B242F;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-container > h3{
+color: white;
+font-size: 1.5rem;
+}
+.form-container{
+width:35%;
+}
+.info > a{
+margin: 5vh;
+cursor: pointer;
+}
+.kontakt-medie{
+padding: 10px;
+background: #252934;
+margin: 3vw;
+}
+
+.kontakt-medie > a > i{
+font-size: 4rem;
+color: white;
+}
+
+.nav-hamburger{
+display:none;
+}
+
+.info > label{
+font-size:2vw;
+}
+.titel{
+text-align: center;
+color: black;
+font-family: 'roboto';
+font-size: 3vw;
+margin-bottom: 3rem;
+}
+
+
+
+.name-correct{
+-webkit-transition: all 0.7s ease-in-out;
+color: green;
+}
+
+@media only screen and (max-width: 800px) {
+     .nav-list{
+      display:none;   
+    }
+    .card{
+    width: 300px;
+    }
+
+    .active-nav{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+    .nav-hamburger{
+    display: flex;
+    left: 15px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    }
+.nav-mobile{
+justify-content: center;
+align-items: center;
+}
+.nav-link{
+cursor: pointer;
+}
+
+  }
