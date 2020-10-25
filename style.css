@@ -10,7 +10,7 @@ font-family: "Raleway";
 .nav-link{
 cursor: pointer;
 }
-.nav-link:hover{
+.nav-list > li > a:hover{
     color:#FFCE00;
 }
 
