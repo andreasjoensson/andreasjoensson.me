@@ -517,9 +517,6 @@ text-decoration: none;
 color:white;
 }
 
-.nav-list > li > a:hover{
-color: black;
-}
 .nav-list{
 list-style: none;
 display: flex;
