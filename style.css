@@ -10,6 +10,9 @@ font-family: "Raleway";
 .nav-link{
 cursor: pointer;
 }
+.nav-link:hover{
+    color:#FFCE00;
+}
 
 .card{
 margin: 100px auto 0;
