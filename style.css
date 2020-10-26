@@ -684,5 +684,10 @@ align-items: center;
 .nav-link{
 cursor: pointer;
 }
+    #intro-navn{
+     font-size:24px;
+     width:75vw;
+    }
+    
 
   }
