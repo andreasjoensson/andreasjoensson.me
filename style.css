@@ -415,6 +415,7 @@ flex-direction: column;
         width: 10%;
         background-color: white;
         margin-top: 4vh;
+        margin-bottom:8vh;
         margin: 0 auto;
         }
         .modal-close{
