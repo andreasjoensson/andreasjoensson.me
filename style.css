@@ -717,7 +717,14 @@ margin:10px 0px 0px 20px;
      width:75vw;
     }
     .form-container{
-     width:55%;   
+     width:70%;   
+    }
+    form > input{
+     font-size:0.8rem;   
+    }
+    
+    textarea{
+     font-size:0.6rem;   
     }
     
 
